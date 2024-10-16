@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\GoogleAuthenticator\Http\Middleware;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator\Http\Middleware;
 
 use Closure;
 use PragmaRX\Google2FALaravel\Support\Authenticator;

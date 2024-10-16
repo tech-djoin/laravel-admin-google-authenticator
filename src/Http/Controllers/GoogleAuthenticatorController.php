@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\GoogleAuthenticator\Http\Controllers;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator\Http\Controllers;
 
 use Encore\Admin\Facades\Admin;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

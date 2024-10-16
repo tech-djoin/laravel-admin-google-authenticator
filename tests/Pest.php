@@ -1,5 +1,5 @@
 <?php
 
-use Encore\GoogleAuthenticator\Tests\TestCase;
+use TechDjoin\LaravelAdminGoogleAuthenticator\Tests\TestCase;
 
 uses(TestCase::class)->in( __DIR__ );

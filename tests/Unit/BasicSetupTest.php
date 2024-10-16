@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\GoogleAuthenticator\Tests\Unit;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator\Tests\Unit;
 
-use Encore\GoogleAuthenticator\Tests\TestCase;
+use TechDjoin\LaravelAdminGoogleAuthenticator\Tests\TestCase;
 
 class BasicSetupTest extends TestCase
 {

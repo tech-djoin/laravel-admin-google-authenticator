@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\GoogleAuthenticator;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator;
 
 use Encore\Admin\Extension;
 

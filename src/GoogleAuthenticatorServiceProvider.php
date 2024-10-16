@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\GoogleAuthenticator;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator;
 
-use Encore\GoogleAuthenticator\Http\Middleware\Google2FAMiddleware;
+use TechDjoin\LaravelAdminGoogleAuthenticator\Http\Middleware\Google2FAMiddleware;
 use Illuminate\Support\ServiceProvider;
 
 class GoogleAuthenticatorServiceProvider extends ServiceProvider

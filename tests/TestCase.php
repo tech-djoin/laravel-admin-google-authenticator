@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\GoogleAuthenticator\Tests;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Encore\GoogleAuthenticator\GoogleAuthenticatorServiceProvider;
+use TechDjoin\LaravelAdminGoogleAuthenticator\GoogleAuthenticatorServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
@@ -24,7 +24,7 @@ abstract class TestCase extends Orchestra
     {
         // Tambahkan middleware ke grup admin
         $app['router']->middlewareGroup('admin', [
-            \Encore\GoogleAuthenticator\Http\Middleware\Google2FAMiddleware::class,
+            \TechDjoin\LaravelAdminGoogleAuthenticator\Http\Middleware\Google2FAMiddleware::class,
         ]);
 
         // Set up konfigurasi environment jika perlu

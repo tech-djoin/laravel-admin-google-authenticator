@@ -1,6 +1,6 @@
 <?php
 
-use Encore\GoogleAuthenticator\Http\Controllers\GoogleAuthenticatorController;
+use TechDjoin\LaravelAdminGoogleAuthenticator\Http\Controllers\GoogleAuthenticatorController;
 
 Route::get('2fa/setting', [GoogleAuthenticatorController::class, 'showSettings'])
     ->name('admin.2fa.settings');

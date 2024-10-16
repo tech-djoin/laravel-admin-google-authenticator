@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\GoogleAuthenticator\Traits;
+namespace TechDjoin\LaravelAdminGoogleAuthenticator\Traits;
 
 use PragmaRX\Google2FA\Google2FA;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;

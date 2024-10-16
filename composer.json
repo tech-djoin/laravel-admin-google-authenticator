@@ -1,9 +1,9 @@
 {
-    "name": "encore/google-authenticator",
+    "name": "tech-djoin/laravel-admin-ext-google-authenticator",
     "description": "Google Authenticator extension for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "2fa", "google authenticator"],
-    "homepage": "https://github.com/yourusername/laravel-admin-google-authenticator",
+    "homepage": "https://github.com/tech-djoin/laravel-admin-google-authenticator",
     "license": "MIT",
     "authors": [{
         "name": "Zidane",
@@ -23,18 +23,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\GoogleAuthenticator\\": "src/"
+            "TechDjoin\\LaravelAdminGoogleAuthenticator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Encore\\GoogleAuthenticator\\Tests\\": "tests"
+            "TechDjoin\\LaravelAdminGoogleAuthenticator\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\GoogleAuthenticator\\GoogleAuthenticatorServiceProvider"
+                "TechDjoin\\LaravelAdminGoogleAuthenticator\\GoogleAuthenticatorServiceProvider"
             ]
         }
     },

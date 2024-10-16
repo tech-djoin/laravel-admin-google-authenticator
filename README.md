@@ -14,12 +14,12 @@ Two-Factor Authentication (2FA) extension for [Laravel Admin](https://github.com
 
 1. Install the package via Composer:
    ```bash
-   composer require laravel-admin-ext/google-authenticator
+   composer require tech-djoin/laravel-admin-ext-google-authenticator
    ```
 
 2. Publish assets and configuration:
    ```bash
-   php artisan vendor:publish --provider="Encore\GoogleAuthenticator\GoogleAuthenticatorServiceProvider" --tag="config"
+   php artisan vendor:publish --provider="TechDjoin\LaravelAdminGoogleAuthenticator\GoogleAuthenticatorServiceProvider" --tag="config"
    ```
 
 3. Customize the configuration file in `config/google2fa.php` as needed.
@@ -37,8 +37,8 @@ Two-Factor Authentication (2FA) extension for [Laravel Admin](https://github.com
    namespace App\Models;
 
    use Encore\Admin\Auth\Database\Administrator;
-   use Encore\GoogleAuthenticator\Traits\Google2FAAuthenticatableTrait;
    use Illuminate\Notifications\Notifiable;
+   use TechDjoin\LaravelAdminGoogleAuthenticator\Traits\Google2FAAuthenticatableTrait;
 
    class AdminUser extends Administrator
    {

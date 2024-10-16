@@ -4,7 +4,7 @@ namespace Tests\Models;
 
 use Encore\Admin\Auth\Database\Administrator;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Encore\GoogleAuthenticator\Traits\Google2FAAuthenticatableTrait;
+use TechDjoin\LaravelAdminGoogleAuthenticator\Traits\Google2FAAuthenticatableTrait;
 
 class AdminUser extends Administrator
 {
