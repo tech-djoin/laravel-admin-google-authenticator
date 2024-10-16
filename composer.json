@@ -1,0 +1,49 @@
+{
+    "name": "encore/google-authenticator",
+    "description": "Google Authenticator extension for laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "2fa", "google authenticator"],
+    "homepage": "https://github.com/yourusername/laravel-admin-google-authenticator",
+    "license": "MIT",
+    "authors": [{
+        "name": "Zidane",
+        "email": "zinedine.zidane@djoin.id"
+    }],
+    "require": {
+        "php": "^7.4|^8.0",
+        "encore/laravel-admin": "^1.8",
+        "laravel/framework": "^8.75",
+        "pragmarx/google2fa-laravel": "^2.0",
+        "simplesoftwareio/simple-qrcode": "^4.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.27",
+        "pestphp/pest": "^1.23",
+        "pestphp/pest-plugin-laravel": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\GoogleAuthenticator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Encore\\GoogleAuthenticator\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\GoogleAuthenticator\\GoogleAuthenticatorServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
