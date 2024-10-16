@@ -14,7 +14,8 @@
         "encore/laravel-admin": "^1.8",
         "laravel/framework": "^8.75",
         "pragmarx/google2fa-laravel": "^2.0",
-        "simplesoftwareio/simple-qrcode": "^4.2"
+        "simplesoftwareio/simple-qrcode": "^4.2",
+        "paragonie/constant_time_encoding": "^1.0|^2.0"
     },
     "require-dev": {
         "orchestra/testbench": "^6.27",
